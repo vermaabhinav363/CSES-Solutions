@@ -25,7 +25,7 @@ Implementation
 . Using a min heap/set to store pairs of <long long, long long>, first one denoting dist, second one source
 . Pick the top, relax its adjacent
 . Update dist vector and add to the set, else run the next iter
-. Remove the previus version of the node
+. Remove the previous version of the node
 . Update visited vector
 . If visited vector size reaches number of nodes, done, read dist vector
 

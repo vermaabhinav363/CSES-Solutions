@@ -107,7 +107,7 @@ int main()
                 c = get<2>(vecx[j]);
 
                 if(dist[a]!=MAX2 && dist[a]!=MAX3){
-                    // EDIT
+                    // EDIT, TO DO, THINK
                     if(dist[b]<dist[a]+c)
                     dist[b] = MAX3;
                 }
